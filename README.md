@@ -1,12 +1,9 @@
-# 🔗 Linked List in C++
+Linked List in C++
 
-## 🎯 Aim  
+Aim  
 To study and implement **Linked List operations in C++**, including node creation, insertion, and traversal, and to understand how linked lists differ from arrays in terms of memory allocation, flexibility, and efficiency.
 
----
-
-## 📚 Theory  
-
+Theory  
 A **Linked List** is a dynamic data structure that stores elements (called *nodes*) in non‑contiguous memory locations. Unlike arrays, which require a fixed size and continuous memory allocation, linked lists grow and shrink at runtime, making them highly flexible.  
 
 Each **node** in a linked list consists of two parts:  
@@ -15,22 +12,19 @@ Each **node** in a linked list consists of two parts:
 
 The **head pointer** always points to the first node of the list. If the list is empty, `head = NULL`. Traversal begins from the head and continues until the pointer becomes `NULL`, which indicates the end of the list.  
 
-### 🔑 Characteristics of Linked Lists  
+Characteristics of Linked Lists  
 - **Dynamic Size**: Can grow or shrink during execution.  
 - **Efficient Insertions/Deletions**: Unlike arrays, no shifting of elements is required.  
 - **Sequential Access**: Elements must be accessed in order; random access (like arrays) is not possible.  
 - **Memory Utilization**: Nodes can be scattered across memory, linked by pointers.  
 
-### 🔄 Types of Linked Lists  
+Types of Linked Lists  
 - **Singly Linked List** → Each node points to the next node.  
 - **Doubly Linked List** → Each node points to both the next and previous nodes.  
 - **Circular Linked List** → The last node points back to the first node, forming a circle.  
 
----
-
-## 📋 Algorithms  
-
-### 🧾 Single Node Creation  
+Algorithms  
+Single Node Creation  
 **Algorithm**  
 1. **Start**  
 2. Define a `Node` structure with two fields: `data` and `next`.  
@@ -39,9 +33,7 @@ The **head pointer** always points to the first node of the list. If the list is
 5. Display the node’s data and pointer value.  
 6. **End**  
 
----
-
-### 🧾 Multiple Nodes & Traversal  
+Multiple Nodes & Traversal  
 **Algorithm**  
 1. **Start**  
 2. Define a `Node` structure with `data` and `next`.  
@@ -55,9 +47,7 @@ The **head pointer** always points to the first node of the list. If the list is
 8. Stop when `temp = NULL`.  
 9. **End**  
 
----
-
-### 🧾 Insertion at Head  
+Insertion at Head  
 **Algorithm**  
 1. **Start**  
 2. Define a `Node` structure with `data` and `next`.  
@@ -71,10 +61,7 @@ The **head pointer** always points to the first node of the list. If the list is
 6. Traverse the list from head to NULL to display the updated sequence.  
 7. **End**  
 
----
-
-## 🚀 Applications of Linked Lists  
-
+Applications of Linked Lists  
 - Dynamic memory allocation.  
 - Implementation of **stacks, queues, and graphs**.  
 - Used in **hash tables with chaining**.  
@@ -83,10 +70,7 @@ The **head pointer** always points to the first node of the list. If the list is
 - Music/Video playlists using circular linked lists.  
 - File systems and memory allocation tables.  
 
----
-
-## 🧠 Conclusion  
-
+Conclusion  
 - Linked lists are a **powerful alternative to arrays**, offering flexibility and efficient memory usage.  
 - Each node contains **data** and a **pointer** to the next node, enabling dynamic growth.  
 - The experiments demonstrated:  
